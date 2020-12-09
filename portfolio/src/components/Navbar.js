@@ -1,24 +1,25 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect} from 'react';
 import {Link} from "react-router-dom";
 import {BsMusicNote} from 'react-icons/bs';                  //Icons are used from react-cons.github.io
 import {ImCross, ImMenu} from 'react-icons/im';                  
-import Button from './Button';
+import { Button } from './Button';
 import './Navbar.css';
 
 function Navbar() {
     const [click, setClick] = useState(false);          //useState is a hook that allows us to use state variables in functional components      
     const [button, setButton] = useState(true);
 
-
-
+    
     const handleClick = () => setClick(!click);
     const CloseMobileMenu = () => setClick(false);
 
     const showButton = () => {
-        if(window.innerWidth <=960) {
+        if(window.innerWidth <=960) 
+        {
             setButton(false);
         }
-        else {
+        else 
+        {
             setButton(true);
         }
         };

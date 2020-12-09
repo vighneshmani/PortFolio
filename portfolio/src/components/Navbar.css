@@ -94,7 +94,8 @@
       transition: all 0.5s ease;
     }
   
-    .nav-menu.active {
+    .nav-menu.active 
+    {
       background: #242222;
       left: 0;
       opacity: 1;
@@ -102,27 +103,31 @@
       z-index: 1;
     }
   
-    .nav-links {
+    .nav-links 
+    {
       text-align: center;
       padding: 2rem;
       width: 100%;
       display: table;
     }
   
-    .nav-links:hover {                                                              /*This slot is for mobile view*/
+    .nav-links:hover 
+    {                                                              /*This slot is for mobile view*/
       background-color:  rgb(3, 189, 202);
       color: #242424;
       border-radius: 0;
     }
   
-    .navbar-logo {
+    .navbar-logo 
+    {
       position: absolute;
       top: 0;
       left: 0;
       transform: translate(25%, 50%);
     }
   
-    .menu-icon {
+    .menu-icon 
+    {
       display: block;
       position: absolute;
       top: 0;
