@@ -20,3 +20,14 @@ video {
     object-fit: contain;
   }
   
+  .hero-container > h1 {
+    color: #fff;
+    font-size: 80px;
+    margin-top: -50px;
+  }
+
+  .hero-container > p {
+    margin-top: 8px;
+    color: #fff;
+    font-size: 26px;
+  }

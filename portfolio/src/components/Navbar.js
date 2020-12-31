@@ -34,7 +34,7 @@ function Navbar() {
         <nav className='navbar'>
             <div className='navbar-container'>
                 <Link to='/' className='navbar-logo' onClick={CloseMobileMenu}>
-                    VIGGI<BsMusicNote />
+                    VIGGI <BsMusicNote />
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>
                     {click ? <ImCross/>  : <ImMenu/>} 
@@ -46,6 +46,15 @@ function Navbar() {
                             className='nav-links' 
                             onClick={CloseMobileMenu}>
                             Home
+                            </Link>
+                        </li>
+
+                        <li className = 'nav-item'>
+                            <Link 
+                            to='./internship' 
+                            className='nav-links' 
+                            onClick={CloseMobileMenu}>
+                            About Me
                             </Link>
                         </li>
 
@@ -81,11 +90,11 @@ function Navbar() {
                 className='nav-links-mobile'
                 onClick={CloseMobileMenu}
               >
-                Text Me
+                Contact
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>Text Me</Button>}
+          {button && <Button buttonStyle='btn--outline'>Contact</Button>}
         </div>
         </nav>
     </>

@@ -1,5 +1,5 @@
 .navbar {
-    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
     height: 80px;
     display: flex;
     justify-content: center;
@@ -36,17 +36,17 @@
   
   .nav-menu {
     display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-gap: 10px;
+    grid-template-columns: repeat(5, auto);            /*To decide how many content options in the navbar menu*/
+    grid-gap: 10px;                                     /*Providing gap between each options in mobile view*/
     list-style: none;
     text-align: center;
-    width: 60vw;
+    width: 70vw;                                        /*Increasing width of the navbar*/
     justify-content: end;
     margin-right: 2rem;
   }
   
   .nav-item {
-    height: 60px;                      /*spacing between each item in the menu section*/
+    height: 60px;                      /*spacing between each item in the menu section for mobile view*/
   }
   
   .nav-links {
@@ -54,7 +54,7 @@
     display: flex;
     align-items: center;
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 1rem 1rem;
     height: 100%;
   }
   
@@ -113,7 +113,7 @@
   
     .nav-links:hover 
     {                                                              /*This slot is for mobile view*/
-      background-color:  rgb(3, 189, 202);
+      background-color:  rgb(3, 188, 201);
       color: #242424;
       border-radius: 0;
     }
@@ -152,7 +152,7 @@
       font-size: 1.5rem;
       background-color: transparent;
       color: #fff;
-      padding: 14px 20px;
+      padding: 20px 20px;
       border: 1px solid #fff;
       transition: all 0.3s ease-out;
     }
