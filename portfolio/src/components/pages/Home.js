@@ -4,6 +4,7 @@ import HeroSection from '../HeroSection';
 import Footer from '../Footer';
 import ProjectCards from '../Cards';
 import Experiences from '../Experiences';
+import Music from '../Music';
 
 function Home() {
     return (
@@ -11,6 +12,7 @@ function Home() {
             <HeroSection />
             <ProjectCards/>
             <Experiences/>
+            <Music/>
             <Footer />
 
         </>

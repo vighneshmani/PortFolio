@@ -1,6 +1,6 @@
-.cards {
+.ecards {
     padding: 4rem;
-    background-color: rgb(255, 255, 255);
+    background: rgb(124, 123, 123);
   }
   
   h1 {
@@ -91,7 +91,7 @@
     transform: scale(1.1);
   }
   
-  .cards__item__info {                                  /*Dashboard of each cards*/
+  .cards__item__info {
     padding: 20px 30px 30px;
     background-color: rgb(0, 0, 0);
   }

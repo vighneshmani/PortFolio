@@ -2,30 +2,30 @@ import React from 'react';
 import './Cards.css';
 import CardItem from './Carditem';
 
-function Cards() {
+function Music() {
   return (
     <div className='cards'>
-      <h1>My Projects</h1>
+      <h1>My Music</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
               src='images/quizapp.jpg'
-              text='Quiz App'
+              text='Like a Dream'
               label='Mystery'
               path='/services'
             />
             <CardItem
               src='images/shopbot.png'
-              text='Shopping Bot'
+              text='viggimania'
               label='Adventure'
               path='/products'
             />
             <CardItem
-              src='images/ShooterPro.jpg'
-              text='Space Shooter Pro'
-              label='Adrenaline'
-              path='/sign-up'
+              src='images/shopbot.png'
+              text='Castle of Hope'
+              label='Adventure'
+              path='/products'
             />
           </ul>
         </div>
@@ -34,5 +34,5 @@ function Cards() {
   );
 }
 
-export default Cards;
+export default Music;
 

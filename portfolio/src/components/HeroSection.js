@@ -11,7 +11,7 @@ function HeroSection() {
             autoPlay loop muted 
             />
             <h1>VIGHNESH MANI</h1>
-            <p>ASPIRING SOFTWARE DEVELOPER</p>
+            <p>ADAPT TO CHANGES!</p>
             <br></br>
             <div className = "hero-btns">
                 <Button 
